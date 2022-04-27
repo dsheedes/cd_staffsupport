@@ -147,7 +147,6 @@ AddEventHandler('cd_staffsupport:holytroll', function()
             FreezeEntityPosition(ped, true)
 
         elseif self.looped > 1000 then
-            --exports['prp-progressbar']:startUI(10000, 'The lord is judging you more')
 			Notification(2, L('holytroll_lord_judging_2'))
             Wait(5000)
             SendNUIMessage({sound = 'holytroll2'})

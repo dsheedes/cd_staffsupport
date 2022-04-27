@@ -33,7 +33,7 @@ Config.NotificationType = { --[ 'esx' / 'qbcore' / 'mythic_old' / 'mythic_new' /
 
 
 Config.StaffSit = {
-    ENABLE = true,
+    ENABLE = true, --Do you want to enable the staff sit feature?
     commands = {
         start = 'staffsit_start',
         end_ = 'staffsit_end',
@@ -57,7 +57,7 @@ Config.StaffSit = {
 }
 
 Config.StaffJail = {
-    ENABLE = true,
+    ENABLE = true, --Do you want to enable the staff jail feature?
     commands = {
         start = 'staffjail_start',
         end_ = 'staffjail_end',
@@ -79,7 +79,7 @@ Config.StaffJail = {
 }
 
 Config.HolyTroll = {
-    ENABLE = true,
+    ENABLE = true, --Do you want to enable the holy troll feature?
     commands = {
         start = 'holytroll'
     },
