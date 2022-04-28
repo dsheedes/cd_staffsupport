@@ -61,7 +61,7 @@ Locales = {
         ['chatsuggest_staffjail_goto_1'] = 'Staff Only: Teleport to one of the staff jails',
         ['chatsuggest_staffjail_goto_2'] = 'jail_id',
         ['chatsuggest_staffjail_goto_3'] = 'Enter the jail ID you want to teleport to: 1-%s',
-        ['chatsuggest_staffjail_lion_1'] = 'Staff Only: Spawn a angry lion into a staff jail',
+        ['chatsuggest_staffjail_lion_1'] = 'Staff Only: Spawn an angry lion into a staff jail',
         ['chatsuggest_holytroll__1'] = 'Staff Only: Be judged by the holy one',
         ['chatsuggest_holytroll__2'] = 'Optional: Enter the players server id or keep empty to use on yourself',
     },
