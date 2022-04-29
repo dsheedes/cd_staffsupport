@@ -28,5 +28,3 @@ files {
     'html/js/script.js',
     'html/sound/*.ogg'
 }
-
-dependency 'onesync' 

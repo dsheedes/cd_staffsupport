@@ -100,9 +100,9 @@ if Config.StaffSit.ENABLE then
 
             SetEntityCoords(data.staff.ped, data.staff.coords.x, data.staff.coords.y, data.staff.coords.z)
             TriggerClientEvent('cd_staffsupport:StaffSitTEXT', data.staff.source)
-            Notification(data.staff.source, 2, L('staffsit_end_staff', data.staff.name))
+            Notification(data.staff.source, 2, L('staffsit_end_staff', current_staffsit))
 
-            data = nil
+            self.data[current_staffsit] = nil
             self.location = self.location - 1
             if self.location < 0 then
                 self.location = 1
