@@ -34,7 +34,7 @@ if Config.StaffSit.ENABLE then
 
 
     RegisterCommand(Config.StaffSit.commands.start, function(source, args)
-        if not PermissionsCheck(source, 'staff_jail') then
+        if not PermissionsCheck(source, 'staff_sit') then
             Notification(source, 3, L('no_permissions'))
             return
         end
@@ -80,7 +80,7 @@ if Config.StaffSit.ENABLE then
 
 
     RegisterCommand(Config.StaffSit.commands.end_, function(source, args)
-        if not PermissionsCheck(source, 'staff_jail') then
+        if not PermissionsCheck(source, 'staff_sit') then
             Notification(source, 3, L('no_permissions'))
             return
         end
@@ -115,7 +115,7 @@ if Config.StaffSit.ENABLE then
 
 
     RegisterCommand(Config.StaffSit.commands.reset, function(source, args)
-        if not PermissionsCheck(source, 'staff_jail') then
+        if not PermissionsCheck(source, 'staff_sit') then
             Notification(source, 3, L('no_permissions'))
             return
         end
@@ -126,7 +126,7 @@ if Config.StaffSit.ENABLE then
 
 
     RegisterCommand(Config.StaffSit.commands.endall, function(source, args)
-        if not PermissionsCheck(source, 'staff_jail') then
+        if not PermissionsCheck(source, 'staff_sit') then
             Notification(source, 3, L('no_permissions'))
             return
         end

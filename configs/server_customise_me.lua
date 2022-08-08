@@ -74,11 +74,11 @@ function PermissionsCheck(source, action)
         for c, d in pairs(data) do
             for cc, dd in pairs(GetPlayerIdentifiers(source)) do
                 if string.lower(dd) == string.lower(d) then
-                return true
+                    return true
+                end
             end
         end
         return false
-    end
 
     elseif Config.Framework == 'other' then
         --Add your own permissions check here (boolean).
